@@ -15,7 +15,7 @@ To run, open ***http://path_to_script/index.php***
 
 Do not close the browser until the end of the work.
 
-### Database structure
+### Settings
 
 In the file ***settings/keywords.txt*** - keywords are added in a column, hints for which need to be selected, for example:
 ```
@@ -65,6 +65,8 @@ ru
 Only one language is specified in one line without spaces.
 
 In the file ***settings/timeout.txt*** - the maximum proxy response time in seconds is specified, after which the wait for a response from it stops. Small values ​​speed up the work, for example ```15```.
+
+### Results
 
 During the work, the script creates the file ***results/result.txt*** - which will contain the parsing result.
 
